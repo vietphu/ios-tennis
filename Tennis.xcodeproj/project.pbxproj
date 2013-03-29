@@ -13,11 +13,15 @@
 		837A62801704C44B00D605A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 837A627E1704C44B00D605A4 /* InfoPlist.strings */; };
 		837A62821704C44B00D605A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A62811704C44B00D605A4 /* main.m */; };
 		837A62861704C44B00D605A4 /* TennisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A62851704C44B00D605A4 /* TennisAppDelegate.m */; };
-		837A62881704C44B00D605A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A62871704C44B00D605A4 /* Default.png */; };
 		837A628A1704C44B00D605A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A62891704C44B00D605A4 /* Default@2x.png */; };
 		837A628C1704C44B00D605A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A628B1704C44B00D605A4 /* Default-568h@2x.png */; };
 		837A628F1704C44B00D605A4 /* TennisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837A628E1704C44B00D605A4 /* TennisViewController.m */; };
 		837A62921704C44B00D605A4 /* TennisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 837A62901704C44B00D605A4 /* TennisViewController.xib */; };
+		837A62991704C7D300D605A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A62981704C7D300D605A4 /* Default.png */; };
+		837A629E1704C7E300D605A4 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A629A1704C7E300D605A4 /* Ball.png */; };
+		837A629F1704C7E300D605A4 /* court.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A629B1704C7E300D605A4 /* court.png */; };
+		837A62A01704C7E300D605A4 /* Raquet_Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A629C1704C7E300D605A4 /* Raquet_Green.png */; };
+		837A62A11704C7E300D605A4 /* Raquet_Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 837A629D1704C7E300D605A4 /* Raquet_Yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +35,16 @@
 		837A62831704C44B00D605A4 /* Tennis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tennis-Prefix.pch"; sourceTree = "<group>"; };
 		837A62841704C44B00D605A4 /* TennisAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TennisAppDelegate.h; sourceTree = "<group>"; };
 		837A62851704C44B00D605A4 /* TennisAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisAppDelegate.m; sourceTree = "<group>"; };
-		837A62871704C44B00D605A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		837A62891704C44B00D605A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		837A628B1704C44B00D605A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		837A628D1704C44B00D605A4 /* TennisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TennisViewController.h; sourceTree = "<group>"; };
 		837A628E1704C44B00D605A4 /* TennisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisViewController.m; sourceTree = "<group>"; };
 		837A62911704C44B00D605A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TennisViewController.xib; sourceTree = "<group>"; };
+		837A62981704C7D300D605A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		837A629A1704C7E300D605A4 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		837A629B1704C7E300D605A4 /* court.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court.png; sourceTree = "<group>"; };
+		837A629C1704C7E300D605A4 /* Raquet_Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Green.png; sourceTree = "<group>"; };
+		837A629D1704C7E300D605A4 /* Raquet_Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Raquet_Yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +104,15 @@
 		837A627C1704C44B00D605A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				837A629A1704C7E300D605A4 /* Ball.png */,
+				837A629B1704C7E300D605A4 /* court.png */,
+				837A629C1704C7E300D605A4 /* Raquet_Green.png */,
+				837A629D1704C7E300D605A4 /* Raquet_Yellow.png */,
+				837A62981704C7D300D605A4 /* Default.png */,
 				837A627D1704C44B00D605A4 /* Tennis-Info.plist */,
 				837A627E1704C44B00D605A4 /* InfoPlist.strings */,
 				837A62811704C44B00D605A4 /* main.m */,
 				837A62831704C44B00D605A4 /* Tennis-Prefix.pch */,
-				837A62871704C44B00D605A4 /* Default.png */,
 				837A62891704C44B00D605A4 /* Default@2x.png */,
 				837A628B1704C44B00D605A4 /* Default-568h@2x.png */,
 			);
@@ -160,10 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				837A62801704C44B00D605A4 /* InfoPlist.strings in Resources */,
-				837A62881704C44B00D605A4 /* Default.png in Resources */,
 				837A628A1704C44B00D605A4 /* Default@2x.png in Resources */,
 				837A628C1704C44B00D605A4 /* Default-568h@2x.png in Resources */,
 				837A62921704C44B00D605A4 /* TennisViewController.xib in Resources */,
+				837A62991704C7D300D605A4 /* Default.png in Resources */,
+				837A629E1704C7E300D605A4 /* Ball.png in Resources */,
+				837A629F1704C7E300D605A4 /* court.png in Resources */,
+				837A62A01704C7E300D605A4 /* Raquet_Green.png in Resources */,
+				837A62A11704C7E300D605A4 /* Raquet_Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
